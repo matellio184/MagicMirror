@@ -17,7 +17,7 @@ Module.register("calendar",{
 		defaultSymbol: "calendar", // Fontawesome Symbol see http://fontawesome.io/cheatsheet/
 		displayRepeatingCountTitle: false,
 		defaultRepeatingCountTitle: '',
-		maxTitleLength: 25,
+		maxTitleLength: 30,
 		fetchInterval: 5 * 60 * 1000, // Update every 5 minutes.
 		animationSpeed: 2000,
 		fade: true,
@@ -29,6 +29,10 @@ Module.register("calendar",{
 				symbol: "calendar",
 				url: "http://www.calendarlabs.com/templates/ical/US-Holidays.ics",
 			},
+			{	
+				symbol: "calendar",
+				url: "https://calendar.google.com/calendar/ical/matellio184%40gmail.com/public/basic.ics",
+			}
 		],
 		titleReplace: {
 			"De verjaardag van ": "",
